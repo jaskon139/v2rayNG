@@ -1,7 +1,7 @@
 package CoreI
 
 import (
-	v2core "github.com/xtls/xray-core/core"
+	v2core "github.com/jaskon139/xray-core/core"
 )
 
 type Status struct {

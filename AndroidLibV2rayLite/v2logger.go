@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	v2commlog "github.com/xtls/xray-core/common/log"
+	v2commlog "github.com/jaskon139/xray-core/common/log"
 )
 
 type consoleLogWriter struct {

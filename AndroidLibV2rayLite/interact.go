@@ -13,15 +13,15 @@ import (
 	"github.com/2dust/AndroidLibV2rayLite/VPN"
 	mobasset "golang.org/x/mobile/asset"
 
-	v2core "github.com/xtls/xray-core/core"
-	v2filesystem "github.com/xtls/xray-core/common/platform/filesystem"
-	v2stats "github.com/xtls/xray-core/features/stats"
-	v2serial "github.com/xtls/xray-core/infra/conf/serial"
-	_ "github.com/xtls/xray-core/main/distro/all"
-	v2internet "github.com/xtls/xray-core/transport/internet"
+	v2filesystem "github.com/jaskon139/xray-core/common/platform/filesystem"
+	v2core "github.com/jaskon139/xray-core/core"
+	v2stats "github.com/jaskon139/xray-core/features/stats"
+	v2serial "github.com/jaskon139/xray-core/infra/conf/serial"
+	_ "github.com/jaskon139/xray-core/main/distro/all"
+	v2internet "github.com/jaskon139/xray-core/transport/internet"
 
-	v2applog "github.com/xtls/xray-core/app/log"
-	v2commlog "github.com/xtls/xray-core/common/log"
+	v2applog "github.com/jaskon139/xray-core/app/log"
+	v2commlog "github.com/jaskon139/xray-core/common/log"
 )
 
 const (
